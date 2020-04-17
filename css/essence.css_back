@@ -1,0 +1,372 @@
+/*Essence
+    Styling for the base of Web Applications for Essence of Zen
+    Http://EssenceOfZen.org/
+        - Zane "ZenOokami" Blalock
+    Version: 1.2.0
+    License:
+
+    Thank Yous:
+        A big thank you to Zurb and Bootstrap -- using them both for different projects inspired
+        this specific project.
+*/
+
+body{
+    margin: 0px;
+}
+
+div{
+    overflow: auto;
+}
+
+#baseContent{
+    transition: margin-left .5s;
+    /*padding: 16px;*/
+}
+
+/* Width Sections */
+.full-width{
+    width: 100%;
+}
+
+.three-width{
+    width: 75%;
+}
+
+.main-width{
+    width: 65%;
+}
+
+/* Grid ===================================================*/
+.grid-container{
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    max-width: 75rem;
+    margin: 0 auto;
+    
+
+}
+
+.test-grid{
+    border: 2px black dotted;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.grid-1{
+    display: grid;
+    border: 2px black dotted;
+    grid-template-columns: repeat(auto-fill, minmax(8.33333%, 12fr));
+    margin: auto;
+    overflow: hidden;
+}
+
+.grid-2{
+    display: grid;
+    border: 2px black dotted;
+    grid-template-columns: repeat(auto-fill, minmax(16.66667%, 1fr));
+    margin: auto;
+    overflow: hidden;
+}
+
+.grid-3{
+    display: grid;
+    border: 2px black dotted;
+    grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+    margin: auto;
+    overflow: hidden;
+}
+
+.grid-4{
+    display: grid;
+    border: 2px black dotted;
+    grid-template-columns: repeat(auto-fill, minmax(33.33333%, 1fr));
+    margin: auto;
+    overflow: hidden;
+}
+
+.grid-5{
+    display: grid;
+    border: 2px black dotted;
+    grid-template-columns: repeat(auto-fill, minmax(41.66667%, 1fr));
+    margin: auto;
+    overflow: hidden;
+}
+
+.grid-6{
+    display: grid;
+    border: 2px black dotted;
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    margin: auto;
+    overflow: hidden;
+}
+
+.grid-7{
+    display: grid;
+    border: 2px black dotted;
+    grid-template-columns: repeat(auto-fill, minmax(58.33333%, 1fr));
+    margin: auto;
+    overflow: hidden;
+}
+
+.grid-8{
+    display: grid;
+    border: 2px black dotted;
+    grid-template-columns: repeat(auto-fill, minmax(66.66667%, 1fr));
+    margin: auto;
+    overflow: hidden;
+}
+
+.grid-9{
+    display: grid;
+    border: 2px black dotted;
+    grid-template-columns: repeat(auto-fill, minmax(75%, 1fr));
+    margin: auto;
+    overflow: hidden;
+}
+
+.grid-10{
+    display: grid;
+    border: 2px black dotted;
+    grid-template-columns: repeat(auto-fill, minmax(83.33333%, 12fr));
+    margin: auto;
+    overflow: hidden;
+}
+
+.grid-11{
+    display: grid;
+    border: 2px black dotted;
+    grid-template-columns: repeat(auto-fill, minmax(91.66667%, 1fr));
+    margin: auto;
+    overflow: hidden;
+}
+
+.grid-12{
+    display: grid;
+    border: 2px black dotted;
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    margin: auto;
+    overflow: hidden;
+}
+
+.cell{
+    margin: 5px;
+}
+
+/*X-Axis of grid -- typically goes inside of a grid-y*/
+.grid-x{ 
+    /*row*/
+    overflow: hidden;
+    display: grid;
+    margin: auto;
+    /*width: 75%;*/
+    /*max-width: 85%;*/
+    /*grid-auto-rows: 100px;*/
+}
+
+.grid-y{
+    overflow: hidden;
+    float: left;
+    min-height: 1px;
+    margin: 0px 0px 0px 0px;
+    padding: 2px 2px 2px 2px;
+    /*margin-left: 2px;*/
+    /*margin-right: 2px;*/
+}
+
+/* Graphics ===================================================*/
+.panel{
+    background-color: #f2f2f2;
+    border: 1px solid #d8d8d8;
+    color: #333333;
+    padding: 5px;
+}
+
+.shadow{
+
+}
+
+.blue-title-bar {
+    background-color: #5cadff;
+    border: 1px none;
+    display: block;
+    font-weight: normal;
+    position: relative;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+}
+
+/*Buttons=======================*/
+.button-flat{
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    padding: 15px 15px;
+    text-decoration: none;
+    border: none;
+    transition-duration: 0.5s;
+}
+
+.button-flat.green{
+    background-color: #4CAF50;
+}
+
+.button-flat.red{
+    background-color: red;
+}
+
+.button-flat.blue{
+    background-color: #5cadff;
+}
+
+/*Animate*/
+.button-flat.arrow:hover{
+    opacity: 0.8;
+    padding-right: 25px;
+}
+
+.button-flat.arrow:after{
+    content: ' \00bb';
+    opacity: 0;
+    right: -25px;
+    transition-duration: 0.5s;
+}
+
+.button-flat.arrow:hover:after{
+    opacity: 1;
+}
+/*Animate END*/
+
+
+.button-flat:hover{
+    opacity: 0.8;
+}
+
+.button-flat:active{
+    opacity: 1.5;
+}
+
+.button-flat.rounded{
+    border-radius: 10px;
+}
+
+.button-flat.big{
+    padding: 15px 32px;
+}
+
+
+.material-button {
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 2px;
+    font-size: 22px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
+    background: #2196F3;
+    position: relative;
+    overflow: hidden;
+}
+
+.material-button:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background: rgba(255, 255, 255, .5);
+    opacity: 0;
+    border-radius: 100%;
+    transform: scale(1, 1) translate(-50%);
+    transform-origin: 50% 50%;
+}
+
+
+/* End Buttons ======================================*/
+
+
+/* Side Navigation ========================================*/
+.sideNavigation{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 5;
+    top: 0%;
+    background-color: #111;
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sideNavigation a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.5s;
+}
+
+.sideNavigation a:hover{
+    color: #f1f1f1;
+}
+
+.sideNavigation .closeButton{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px){ /*When the screen size is small*/
+    .sideNavigation {
+        padding-top: 15px;
+    }
+    .sideNavigation a{
+        font-size: 18px;
+    }
+}
+
+
+/* End Side Navigation ===============================*/
+
+
+/* Animations =============================================*/
+@keyframes ripple {
+    0% {
+        transform: scale(0, 0);
+        opacity: 1;
+    }
+    20% {
+        transform: scale(25, 25);
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: scale(40, 40);
+    }
+}
+
+.ripple:focus:not(:active)::after{
+    animation: ripple 1s ease-out;
+}
+
+.ripple {  /*WIP*/
+    border: none;
+    background: #2196F3;
+    position: relative;
+    overflow: hidden;
+}
+
+.ripple:after { /*WIP*/
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: rgba(255, 255, 255, .5);
+    opacity: 0;
+    border-radius: 100%;
+    transform: scale(1, 1) translate(-50%);
+    transform-origin: 50% 50%;
+}
+
+/* End Animations ====================================*/

@@ -2,7 +2,7 @@
     Styling for the base of Web Applications for Essence of Zen
     Http://EssenceOfZen.org/
         - Zane "ZenOokami" Blalock
-    Version: 0.2.0 - Base
+    Version: 0.5.0 - Base
     License:
 
     Direction:
@@ -399,6 +399,11 @@ hr {
 
     .panel.chin {
         padding-bottom: 5px;
+    }
+
+    .panel.sideburns {
+        padding-left: 3px;
+        padding-right: 3px;
     }
 
     .panel > .strip {

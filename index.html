@@ -39,16 +39,14 @@
     <div id="version-popup" class="panel drop-shadow" style="transition: .65s; z-index: 10; position: absolute; left: 25%; right: 25%; top: -1000;">
         <div id="popupTitle" class="strip e-light-blue text-center" style="font-size: 1.4rem"><b>Version</b><button class="button e-red rounded" style="float: right; margin: 3px; padding: 2 10 2 10;" onclick="hidePopupMenu('version-popup');">X</button></div>
         <div class="content">
-            <b>Version:</b> <i>0.3.0</i>
+            <b>Version:</b> <i>0.5.0</i>
             <div style="max-height: 200px; overflow: scroll;">
                 <h3>Change Log:</h3>
                 <ul>
-                    <li>Some Changes here.</li>
-                    <li>Other changes</li>
-                    <li>I made some changes here</li>
-                    <li>Rice Crispies</li>
-                    <li>I can give you some treats</li>
-                    <li>Computer Changes</li>
+                    <li>Updated Button classes and struncture</li>
+                    <li>Added "grow" animation class</li>
+                    <li>Removed default border around the "panel" class</li>
+                    <li>Added "border" class for  panels</li>
                 </ul>
             </div>
         </div>
@@ -146,7 +144,7 @@
                                     <button class="button e-white rounded ring-red grow">Red Ring Grow Button</button>
                                     <br><br>
                                     
-                                    <button class="button flat">Flat Button</button>
+                                    <button class="button flat" style="color: black;">Flat Button</button>
                                     <br><br>
                                     
                                     <br>
@@ -276,8 +274,7 @@
                     <div class="panel rounded" style="border: 0px; width: 100%;">
                         <div class="content">
                             <p>By Having the parent DIV lack the class "panel", we lack the "border" attribute which allows for the panel of this DIV to fill 
-                                the rest.
-                            </p>
+                                the rest.</p>
                             <br>
                             <p>It's been nice, Dolly!</p>
                             <br>

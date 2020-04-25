@@ -27,9 +27,6 @@ function adjustBaseElements() {
     var navbar_offset_height = document.getElementById("navBar").offsetHeight;
     var base_content = document.getElementById('baseContent');
     var base_content_offset_height = base_content.offsetHeight;
-    // var footer = document.getElementById('footer');
-    // var footer_offset_height = footer.offsetHeight;
-
 
     document.getElementById("sideNav").style.top = navbar_offset_height;
     document.getElementById("sideOption").style.top = navbar_offset_height;
@@ -39,13 +36,7 @@ function adjustBaseElements() {
     */
     if(base_content_offset_height < window.innerHeight){
         console.log("adjustBaseElements() was called")
-        // console.log(base_content_offset_height);
-        // console.log(window.innerHeight);
-
-        /* NodeJS includes the footer WITHIN the body tag, so the '- footer_offset_height' actually ruins the calculations */
-        /* base_content.style.height = (window.innerHeight - navbar_offset_height - footer_offset_height) + "px"; */
-        // base_content.style.height = (window.innerHeight - navbar_offset_height ) + "px";
-        // console.log(base_content.style.height);
+        
     }
 
 }
@@ -54,10 +45,10 @@ function navbarShadow() {
     var offset = document.getElementById("navBar").offsetHeight;
     if (window.pageYOffset > offset) {
         document.getElementById("navBar").style.boxShadow = "0px 2px 10px #333333";
-        // document.getElementById("navBar").style.position = "fixed";
+        
     } else {
         document.getElementById("navBar").style.boxShadow = "0px 0px 0px #333333";
-        // document.getElementById("navBar").style.position = "absolute";
+        
     }
 }
 
@@ -79,6 +70,7 @@ function hidePopupMenu(element_id) {
 function showPhantomMenu(element_id){
     var element = document.getElementById(element_id);
     element.style.top = (window.outerHeight / 3.5) + window.pageYOffset;
+
     element.style.visibility = "visible";
     element.style.opacity = "1";
 }

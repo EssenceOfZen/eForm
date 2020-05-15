@@ -1,0 +1,17 @@
+{
+  "name": "eForm",
+  "version": "0.5.0",
+  "main": "index.js",
+  "repository": "https://github.com/EssenceOfZen/eForm.git",
+  "author": "Essence of Zen",
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "storybook": "start-storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@storybook/addon-storysource": "^5.3.18",
+    "@storybook/html": "^5.3.18",
+    "babel-loader": "^8.1.0"
+  }
+}

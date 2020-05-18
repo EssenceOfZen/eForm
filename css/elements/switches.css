@@ -1,0 +1,60 @@
+/* Switches */
+
+/* Base Switch */
+.switch-bar{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch-bar input{ /* for inputs that occur as a child of the switch-bar */
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/*  */
+/* switch-slider is the background of the slider */
+.switch-slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #cccccc;
+    transition: .5s;
+}
+    .switch-slider::before{ /* Adds the switch icon (square) */
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: #ffffff;
+        transition: .5s;
+    }
+
+    .switch-slider.rounded{
+        border-radius: 100px;
+    }
+        .switch-slider.rounded::before{
+            border-radius: 100px;
+        }
+
+input:checked.switch-input + .switch-slider{ /* When pressed, the background  */
+    background-color: var(--e-charcoal-gray);
+}
+    input:checked.switch-input + .switch-slider::before{
+        transform: translateX(26px);
+    }
+
+    input:checked.switch-input + .switch-slider.e-light-blue{
+        background-color: var(--e-light-blue);
+    }
+
+    input:checked.switch-input + .switch-slider.e-red{
+        background-color: var(--e-red);
+    }

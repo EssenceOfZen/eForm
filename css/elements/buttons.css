@@ -1,0 +1,56 @@
+/* Buttons */
+
+/* Base Button */
+.button{
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    color: #ffffff;
+    transition-duration: 0.3s;
+}
+
+/* Stylize */
+.button.e-white{ /*If the button is white, default the text color to black*/
+    color: #000000;
+}
+
+.button.flat{
+    padding: 15px 15px;
+}
+
+.button.dull{
+    border-radius: 5px;
+}
+
+.button.rounded{
+    border-radius: 10px;
+}
+
+.button.circle{
+    border-radius: 100px;
+}
+
+/* Ring Button Styles */
+.button.ring-light-blue{
+    border: 2px var(--e-light-blue) solid;
+}
+
+.button.ring-red{
+    border: 2px var(--e-red) solid;
+}
+
+/* --Animation-- */
+.button:hover{
+    opacity: 0.8;
+    /* transform: scale(1.05); */
+}
+
+.button:active{
+    opacity: 1.5;
+    /* transform: scale(0.9); */
+}
+
+.button.grow:hover{
+    opacity: 1.5;
+    transform: scale(1.05);
+}

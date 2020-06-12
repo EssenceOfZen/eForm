@@ -1,0 +1,53 @@
+/* Side Navigation */
+
+.sideNavigation{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 200;
+    margin-top: 50px; /* Same value as the NavBar height */
+    top: 0%;
+    /*background-color: #111;*/
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    box-shadow: 2px 15px 10px #333333;
+}
+    
+    .sideNavigation.rightNav{
+        right: 0px;
+    }
+
+    .sideNavigation.leftNav{
+        left: 0px;
+    }
+
+    .sideNavigation a{
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.5s;
+    }
+
+    .sideNavigation a:hover{
+        color: #f1f1f1;
+    }
+
+    .sideNavigation .closeButton{
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+@media screen and (max-height: 450px){ /*When the screen size is small*/
+    .sideNavigation {
+        padding-top: 15px;
+    }
+    .sideNavigation a{
+        font-size: 18px;
+    }
+}

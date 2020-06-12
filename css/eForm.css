@@ -25,10 +25,10 @@
             Idea: Change the direction of the shadow based on the time on the user's computer?
 
     Table of Contents:
-        `- xxFonts
-        `- xxLinks
-        `- xxTags
-        `- xxIDs
+        `- xxFonts --
+        `- xxLinks -- 
+        `- xxTags --
+        `- xxIDs --
         `- xxWidth Sections
         `- xxText and Font
         `- xxTable
@@ -37,8 +37,8 @@
         `- xxGradiants
         `- xxAttributes
         `- xxGraphics
-        `- xxButtons 
-        `- xxSwitches
+        `- xxButtons --
+        `- xxSwitches -- 
 */
 :root{
     /* Set up major variables for future theme settings like Dark Mode */

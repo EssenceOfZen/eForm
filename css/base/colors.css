@@ -1,0 +1,41 @@
+/* Colors */
+
+.e-white {
+    background-color: var(--e-white);
+}
+
+.e-charcoal-gray{
+    background-color: var(--e-charcoal-gray);
+    color: #ffffff;
+}
+
+.e-dark-gray {
+    background-color: var(--e-dark-gray);
+    color: #ffffff;
+}
+
+.e-light-blue{
+    background-color: var(--e-light-blue);
+    color: #ffffff;
+}
+
+.e-deep-dark-blue {
+    background-color: var(--e-deep-dark-blue);
+    color: #ffffff;
+}
+
+.e-red{
+    background-color: var(--e-red);
+    color: #ffffff;
+}
+
+.e-green{
+    background-color: var(--e-green);
+    color: #ffffff;
+}
+
+
+.blue-gradiant {
+    background: linear-gradient(#5cadff,#246bb2);
+}
+

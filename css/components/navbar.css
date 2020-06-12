@@ -1,0 +1,18 @@
+/* Navigation Bar */
+
+.navBar {
+    z-index: 100;
+    font-size: 1.5rem;
+    height: 50px;
+    line-height: 50px;
+    border: 1px none;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-weight: normal;
+    position: sticky;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    transition: 1s;
+}

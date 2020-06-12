@@ -2,14 +2,13 @@
 
 EoZ's styling/animation for web related applications
 
-**Version:** *0.5.0*
+**Version:** *0.6.0*
 
 ## Goals:
 
 #### WORK IN PROGRESS:
 
-1. Popup Menu + Animation
-2. More style options
+1. Preparing to split the css into modules
 
 #### PLANNED:
 
@@ -22,6 +21,10 @@ EoZ's styling/animation for web related applications
 * Small Screen size tweaking
 
 ## Change Log:
+
+#### Version 0.6.0:
+
+- Split up the main .css file into pieces, each group with its own _all.css 
 
 #### Version 0.3.0:
 

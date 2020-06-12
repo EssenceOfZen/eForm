@@ -1,0 +1,56 @@
+/* Generic */
+
+
+#baseContent{ 
+    transition: margin-left .5s;
+    /*padding: 16px;*/
+    min-height: 1080px;
+}
+
+.full-width {
+    margin: auto;
+    width: 100%;
+}
+
+.three-width {
+    margin: auto;
+    width: 75%;
+}
+
+.main-width {
+    margin: auto;
+    width: 65%;
+}
+
+.verticle-middle {
+    vertical-align: middle;
+}
+
+.e-link {
+    color: var(--e-blue);
+    text-decoration: none;
+    transition: .5s;
+}
+
+    .e-link:hover {
+        color: var(--e-light-blue);
+        /* box-shadow: x-offset, y-offset, blur size, spread size, color */
+        box-shadow: 0px 0px 10px 1px var(--e-light-blue);
+    }
+
+.ethereal-hr-top {
+    height: 2px; 
+    box-shadow: 0px 1px 3px rgb(51, 51, 51, .5); 
+    background-color: rgb(33, 33, 33, .5);
+}
+    
+    .ethereal-hr-bottom {
+        height: 2px; 
+        box-shadow: 0px -1px 3px rgb(51, 51, 51, .5); 
+        background-color: rgb(33, 33, 33, .5);
+    }
+        .ethereal-hr-bottom-cast-down {
+            height: 2px; 
+            box-shadow: 0px 1px 3px rgb(51, 51, 51, .8); 
+            background-color: rgb(33, 33, 33, .5);
+        }

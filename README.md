@@ -2,25 +2,29 @@
 
 EoZ's styling/animation for web related applications
 
-**Version:** *0.6.0*
+**Version:** *css1.0.1*
 
 ## Goals:
 
 #### WORK IN PROGRESS:
 
-1. Preparing to split the css into modules
+1. Updating Project around various styling languages - currently, CSS and SCSS
 
 #### PLANNED:
 
-* Variety of element animations
-* Footer (auto-adjusting based on screen size and content on screen.)
-* User account menu/panel functionality + styling
+* N/A
 
 ##### COMPLETED:
 * Medium Screen size tweaking
 * Small Screen size tweaking
+* Modularity
+* CSS Variables Implemented
 
 ## Change Log:
+
+#### Version 1.0.1:
+
+- Updated ReadMe :)
 
 #### Version 0.6.0:
 

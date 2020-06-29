@@ -7,7 +7,7 @@
  */
 
 
-function sectionPrint(content, css_files){
+export function sectionPrint(content, css_files){
     var window_section = window.open();
     if(css_array.length == 0 || css_array == null){
     }else{

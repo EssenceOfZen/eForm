@@ -15,4 +15,10 @@
     position: sticky;
     padding: 0.2rem 1rem 0.2rem 1rem;
     transition: 1s;
+    vertical-align: center;
+}
+
+.navButton {
+    cursor: pointer;
+    float: left;
 }

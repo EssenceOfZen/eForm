@@ -1,0 +1,49 @@
+/* Base */
+
+$e-white: #ffffff;
+$e-charcoal-gray: #333333;
+$e-dark-gray: #212121;
+$e-light-blue: #5cadff;
+$e-blue: #3f8bd8;
+$e-deep-dark-blue: #425784;
+$e-red: #ff2616; 
+$e-green: #4caf50;
+
+:root {
+    $main-background-color: white;
+    // $e-white: #ffffff;
+    // $e-charcoal-gray: #333333;
+    // $e-dark-gray: #212121;
+    // $e-light-blue: #5cadff;
+    // $e-blue: #3f8bd8;
+    // $e-deep-dark-blue: #425784;
+    // $e-red: #ff2616; 
+    // $e-green: #4caf50;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 100%;
+}
+
+* {
+	box-sizing: inherit;
+	&::before {
+		box-sizing: inherit;
+	}
+	&::after {
+		box-sizing: inherit;
+	}
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+hr {
+	border: none;
+	background-color: #4e4e4e;
+	color: black;
+	height: 1px;
+}

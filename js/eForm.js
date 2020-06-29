@@ -18,12 +18,12 @@
 */
 
 
-function test() {
+export function test() {
     console.log("test");
 }
 
 // Adjust elements to react to the sticky navbar
-function adjustBaseElements() {
+export function adjustBaseElements() {
     var navbar_offset_height = document.getElementById("navBar").offsetHeight;
     var base_content = document.getElementById('baseContent');
     var base_content_offset_height = base_content.offsetHeight;
@@ -41,7 +41,7 @@ function adjustBaseElements() {
 
 }
 
-function navbarShadow() {
+export function navbarShadow() {
     var offset = document.getElementById("navBar").offsetHeight;
     if (window.pageYOffset > offset) {
         document.getElementById("navBar").style.boxShadow = "0px 2px 10px #333333";
@@ -54,20 +54,20 @@ function navbarShadow() {
 
 // Popup menus
 //  Would it be better to not use element_id but rather the element object as the parameter instead?
-function showPopupMenu(element_id) {
+export function showPopupMenu(element_id) {
     var element = document.getElementById(element_id);
     element.style.opacity = 1;
     element.style.top = (window.outerHeight / 3.5) + window.pageYOffset;
 }
 
-function hidePopupMenu(element_id) {
+export function hidePopupMenu(element_id) {
     var element = document.getElementById(element_id);
     element.style.opacity = 0;
     element.style.top = -1000;
 }
 
 // Phantom Menus
-function showPhantomMenu(element_id){
+export function showPhantomMenu(element_id){
     var element = document.getElementById(element_id);
     element.style.top = (window.outerHeight / 3.5) + window.pageYOffset;
 
@@ -75,22 +75,22 @@ function showPhantomMenu(element_id){
     element.style.opacity = "1";
 }
 
-function hidePhantomMenu(element_id){
+export function hidePhantomMenu(element_id){
     var element = document.getElementById(element_id);
     element.style.opacity = "0";
     element.style.visibility = "hidden";
 }
 
 // Side Panel - Covers the Screen
-function openSidePanelCover(navigation_id, nav_width) {
+export function openSidePanelCover(navigation_id, nav_width) {
     document.getElementById(navigation_id).style.width = nav_width;
 }
 
-function closeSidePanelCover(navigation_id) {
+export function closeSidePanelCover(navigation_id) {
     document.getElementById(navigation_id).style.width = 0;
 }
 
-function toggleSidePanelCover(navigation_id, nav_width) {
+export function toggleSidePanelCover(navigation_id, nav_width) {
     var current_nav_width = document.getElementById(navigation_id).style.width;
     console.log(current_nav_width);
     if (current_nav_width < nav_width || current_nav_width == "" || current_nav_width == null) {
@@ -101,17 +101,17 @@ function toggleSidePanelCover(navigation_id, nav_width) {
 }
 
 // Side Panel - Pushes the Screen
-function openSidePanelPush(navigation_id, base_content, nav_width) {
+export function openSidePanelPush(navigation_id, base_content, nav_width) {
     document.getElementById(navigation_id).style.width = nav_width;
     document.getElementById(base_content).style.marginLeft = nav_width;
 }
 
-function closeSidePanelPush(navigation_id, base_content) {
+export function closeSidePanelPush(navigation_id, base_content) {
     document.getElementById(navigation_id).style.width = 0;
     document.getElementById(base_content).style.marginLeft = 0;
 }
 
-function toggleSidePanelPush(navigation_id, base_content){
+export function toggleSidePanelPush(navigation_id, base_content){
     var current_nav_width = document.getElementById(navigation_id).style.width;
     console.log(current_nav_width);
     if(current_nav_width > 0 && document.getElementById(base_content).style.width > 0){

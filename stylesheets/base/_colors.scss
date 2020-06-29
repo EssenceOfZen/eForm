@@ -1,36 +1,40 @@
 /* Colors */
 
 .e-white {
-    background-color: var(--e-white);
+    background-color: $e-white;
 }
 
 .e-charcoal-gray{
-    background-color: var(--e-charcoal-gray);
+    background-color: $e-charcoal-gray;
+    color: #ffffff;
+}
+
+.e-dark{
     color: #ffffff;
 }
 
 .e-dark-gray {
-    background-color: var(--e-dark-gray);
+    background-color: $e-dark-gray;
     color: #ffffff;
 }
 
 .e-light-blue{
-    background-color: var(--e-light-blue);
+    background-color: $e-light-blue;
     color: #ffffff;
 }
 
 .e-deep-dark-blue {
-    background-color: var(--e-deep-dark-blue);
+    background-color: $e-deep-dark-blue;
     color: #ffffff;
 }
 
 .e-red{
-    background-color: var(--e-red);
+    background-color: $e-red;
     color: #ffffff;
 }
 
 .e-green{
-    background-color: var(--e-green);
+    background-color: $e-green;
     color: #ffffff;
 }
 

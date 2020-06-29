@@ -2,13 +2,14 @@
 
 EoZ's styling/animation for web related applications
 
-**Version:** *css1.0.1*
+**Version:** *scss1.1.0*
 
 ## Goals:
 
 #### WORK IN PROGRESS:
 
-1. Updating Project around various styling languages - currently, CSS and SCSS
+1. Converting to SCSS for Master Branch
+2. Formatting for JavaScript Module configuration
 
 #### PLANNED:
 
@@ -19,8 +20,16 @@ EoZ's styling/animation for web related applications
 * Small Screen size tweaking
 * Modularity
 * CSS Variables Implemented
+* SCSS Variables Implemented
+* Conversion to SCSS
+* Window change reactions
 
 ## Change Log:
+
+#### Version 1.1.0:
+
+- Fixed a lot of the scss syntax format for most files.
+- updated file names for SASS to know which files are meant to be imported.
 
 #### Version 1.0.1:
 

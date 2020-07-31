@@ -2,7 +2,7 @@
 
 EoZ's styling/animation for web related applications
 
-**Version:** *scss1.1.0*
+**Version:** *scss1.3.1*
 
 ## Goals:
 
@@ -10,6 +10,7 @@ EoZ's styling/animation for web related applications
 
 1. Converting to SCSS for Master Branch
 2. Formatting for JavaScript Module configuration
+3. Fixing some formatting of files
 
 #### PLANNED:
 

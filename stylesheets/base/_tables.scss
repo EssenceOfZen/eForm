@@ -1,0 +1,16 @@
+.e-table {
+    border: 1px solid #d3d1d1;
+}
+
+    .e-table-body > tr:nth-child(even){
+        background-color: #f8f8f8;
+    }
+
+    .e-table-body td {
+        border-bottom: 1px solid #cccccc;
+    }
+
+    .e-table-cell {
+        border: 1px solid #d3d1d1; 
+        padding: 0px 5px;
+    }

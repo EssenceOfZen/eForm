@@ -22,3 +22,14 @@
     cursor: pointer;
     float: left;
 }
+
+.navCover {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: opacity .5s;
+}

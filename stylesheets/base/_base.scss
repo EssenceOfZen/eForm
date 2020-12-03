@@ -1,4 +1,5 @@
 /* Base */
+@import "./colors";
 
 :root {
     $main-background-color: white;
@@ -22,6 +23,7 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+	background-color: $e-light-gray;
 }
 
 hr {

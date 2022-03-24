@@ -1,6 +1,6 @@
 # Essence FORM
 
-EoZ's styling/animation for web related applications
+EoZ's styling/animation framework for web related applications for EoZ.
 
 **Version:** *scss1.3.1*
 
